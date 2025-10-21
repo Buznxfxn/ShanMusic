@@ -19,7 +19,7 @@ from os import getenv
 
 API_URL = getenv("API_URL", 'https://api.thequickearn.xyz')
 VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.thequickearn.xyz')
-API_KEY = getenv("30DxNexGenBots4b4b8e", None) # GET THIS API KEY FROM https://panel.thequickearn.xyz/signup?ref=NGBM6HYNQKU
+API_KEY = getenv("API_KEY", "30DxNexGenBots4b4b8e") # GET THIS API KEY FROM https://panel.thequickearn.xyz/signup?ref=NGBM6HYNQKU
 
 def cookie_txt_file():
     cookie_dir = "ShrutiMusic/cookies"
